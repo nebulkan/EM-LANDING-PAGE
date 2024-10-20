@@ -1,0 +1,318 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: whitesmoke;
+}
+
+/*-------------------- TOP SECTION --------------------*/
+
+.top-container {
+    background-image: linear-gradient(rgb(15, 49, 43), #212121);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#title {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 10px;
+    cursor: crosshair;
+    width: 300px;
+    margin: auto;
+}
+
+#title:hover {
+    text-shadow: 3px 4px navy;
+    transition: .3s;
+}
+
+.icons_social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.scroll-box {
+    display: flex;
+    align-items: center;
+
+	border-top: 3px solid rgb(211, 255, 118);
+	border-bottom: 3px solid rgb(211, 255, 118);
+	color: white;
+    font-size: 1.1rem;
+	margin-top: 50px;
+	overflow: hidden;
+    height: 100px;
+}
+
+.scroll {
+	display: flex;
+	gap: 25px;
+	list-style: none;
+	white-space: nowrap;
+	animation: scroll 90s linear infinite;
+}
+
+ul:hover {
+    animation-play-state: paused;
+	cursor: crosshair;
+}
+
+.scroll-item {
+	color: rgb(0, 149, 255);
+}
+
+.top-img {
+    width: 90%;
+    max-width: 1100px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 70px auto 10px auto;
+    border: 1px solid lightgrey;
+}
+
+#heading {
+    max-width: 1100px;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+/*-------------------- MIDDLE SECTION --------------------*/
+
+.middle-container {
+    background-image: linear-gradient(#212121, #1b212b);
+}
+
+.profile-img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 40%;
+    border: 1px solid lightgrey;
+}
+
+.bio {
+    width: 250px;
+    margin: 30px auto 70px auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    /* border: 2px solid red; */
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.card h2 {
+    color: greenyellow;
+}
+
+.card_info {
+    max-width: 350px;
+    /* border: 2px solid red; */
+}
+
+.card-img {
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.card-img-container {
+    max-width: 500px;
+    text-align: center;
+    padding: 0px 10px;
+    /* border: 2px solid red; */
+}
+
+.contact-email-section {
+    height: 370px;
+}
+
+.email, .email a {
+    text-align: center;
+    color: greenyellow;
+    font-size: 2rem;
+    transition: .3s;
+}
+
+.email a {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.email a:hover {
+    color: rgba(172, 255, 47, 0.566);
+}
+
+/*---------------------- LOWER SECTION ----------------------*/
+
+.contact-me-section {
+    background-image: linear-gradient(#1b212b, rgb(15, 49, 43));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+    /* border: 2px solid red; */
+}
+
+.lower-img-container {
+    /* width: 90%; */
+    max-width: 900px;
+    min-width: 370px;
+    padding: 30px;
+}
+
+.lower-img {
+    width: 100%;
+    /* min-width: 300px;
+    max-width: 900px; */
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    width: 300px;
+    height:30px;
+    border: none;
+    text-align: center;   
+    border-radius:10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: greenyellow;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: whitesmoke;
+    box-shadow: 5px 5px black;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/*---------------------- FOOTER SECTION ----------------------*/
+.footer {
+    background-color: rgb(15, 49, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 105px;
+}
+
+/* .nav-link {
+    text-decoration: none;
+    color: rgb(185, 255, 241);
+    font-size: 13px;
+    letter-spacing: 2px;
+} */
+
+.icon:hover {
+    transform: scale(1.1);
+	transition: .3s;
+}
+
+.copyright {
+    background-color: rgb(15, 49, 43);
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.email {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*------------------------- HR & EXTRAS -------------------------*/
+
+.dots {
+    color: rgb(0, 149, 255);
+    border: dotted;
+    border-bottom: none;
+    width:80px;
+    margin: 70px auto;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.black {
+    color: black;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.purple {
+    color: purple;
+    border: dotted;
+    border-bottom: none;
+    width:100px;
+    margin: 100px auto;
+}
+
+.bold {
+    color: cornflowerblue;
+    transition: .3s;
+}
+
+.bold:hover {
+    color: rgba(172, 255, 47, 0.716);
+}
+
+
+/*------------------------- MEDIA QUERIES -------------------------*/
+
+@media (max-width: 900px) {
+    
+    .card {
+        flex-direction: column;
+    }
+
+    .card-info {
+        max-width: 350px;
+        max-height: 600px;
+    }
+
+    .card_info {
+        padding: 0px 10px;
+    }
+}
+
+/*------------------------- KEY FRAMES -------------------------*/
+@keyframes scroll {
+	to {transform: translateX(-100%)}
+	}
