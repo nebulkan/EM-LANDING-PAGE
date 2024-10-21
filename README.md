@@ -4,4 +4,4 @@ I will add more content and styling when I learn new concepts in programming.
 
 As for now, hope you enjoy!
 
-- Ethan# EM-LANDING-PAGE
+# EM-LANDING-PAGE
